@@ -1430,7 +1430,7 @@ def main():
     parser.add_argument('--nofilescan', action='store_true', help='Skip the file scan', default=False)
     parser.add_argument('--nolevcheck', action='store_true', help='Skip the Levenshtein distance check', default=False)
     parser.add_argument('--scriptanalysis', action='store_true', help='Statistical analysis for scripts to detect obfuscated code (beta)', default=False)
-    parser.add_argument('--rootkit', action='store_true', help='Skip the rootkit check', default=False)
+    parser.add_argument('--norootkit', action='store_true', help='Skip the rootkit check', default=False)
     parser.add_argument('--noindicator', action='store_true', help='Do not show a progress indicator', default=False)
     parser.add_argument('--dontwait', action='store_true', help='Do not wait on exit', default=False)
     parser.add_argument('--intense', action='store_true', help='Intense scan mode (also scan unknown file types and all extensions)', default=False)
